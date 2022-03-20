@@ -1,0 +1,21 @@
+
+.body-wrapper {
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 100vw;
+}
+
+.header {
+    background-color: rgb(233 233 233);
+    height: 60px;
+}
+
+.main-content {
+    background-color: rgb(233 233 233);
+    margin: 30px;
+    padding: 20px;
+}

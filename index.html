@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <aside class="aside">
+      <div class="logo-wrapper">
+        <img src="images/logo-3.png" alt="logo">
+      </div>
+
+      <div class="main-sidemenu">
+        <ul>
+          <li class="main-sidemenu__subcategory-item">
+            <p>Main</p>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Apps</span>
+              <i class="material-icons main-sidemenu__menu-item-arrow">keyboard_arrow_right</i>
+            </a>
+            <ul class="main-sidemenu__menu-item-dropdown">
+              <li><a href="#"><i class="material-icons">keyboard_arrow_right</i>Emails</a></li>
+              <li><a href="#"><i class="material-icons">keyboard_arrow_right</i>Notifications</a></li>
+              <li><a href="#"><i class="material-icons">keyboard_arrow_right</i>SMS</a></li>
+            </ul>
+          </li>
+          <li class="main-sidemenu__subcategory-item">
+            <p>Project</p>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Apps</span>
+              <i class="material-icons main-sidemenu__menu-item-arrow">keyboard_arrow_right</i>
+            </a>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Apps</span>
+              <i class="material-icons main-sidemenu__menu-item-arrow">keyboard_arrow_right</i>
+            </a>
+          </li>
+
+          <li class="main-sidemenu__subcategory-item">
+            <p>Workers</p>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Apps</span>
+              <i class="material-icons main-sidemenu__menu-item-arrow">keyboard_arrow_right</i>
+            </a>
+          </li>
+
+          <li class="main-sidemenu__subcategory-item">
+            <p>Finance</p>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Apps</span>
+              <i class="material-icons main-sidemenu__menu-item-arrow">keyboard_arrow_right</i>
+            </a>
+          </li>
+          <li>
+            <a class="main-sidemenu__menu-item" href="javascript:void(0)">
+              <span class="main-sidemenu__menu-label"><i class="material-icons">all_inclusive</i> Apps</span>
+              <i class="material-icons main-sidemenu__menu-item-arrow">keyboard_arrow_right</i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="content">
+      <header class="header">
+        <div class="header-search">
+          <i class="material-icons">texture</i>
+          <input placeholder="Search..." id="header_search" type="text">
+        </div>
+
+        <div class="header-navigation">
+          <span class="header-navigation__item">
+            <i class="material-icons">language</i>English
+          </span>
+          <i class="material-icons">notifications_none</i>
+          <i class="material-icons">location_on</i>
+          <i class="material-icons">local_shipping</i>
+          <i class="material-icons">lightbulb_outline</i>
+          <a href="#" class="header-navigation__user-avatar-holder dropdown-trigger" data-target='dropdown-avatar-logo'>
+            <img class="header-navigation__user-avatar" src="images/user1.jpg" alt="user-avatar">
+          </a>
+          <!-- Dropdown Structure -->
+          <div id='dropdown-avatar-logo' class='dropdown-content'>
+            <img src="images/user1.jpg" alt="user-avatar">
+            <ul>
+              <li><a href="#!">one</a></li>
+              <li><a href="#!">two</a></li>
+              <li class="divider" tabindex="-1"></li>
+              <li><a href="#!">three</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </header>
+
+      <div class="main-content">
+        <h5>This is page title</h5>
+        <hr>
+        <div>
+          <p>this is page content</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
